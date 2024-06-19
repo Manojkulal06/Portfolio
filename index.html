@@ -3,33 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="home.css">
+    <title>Manoj - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>MANOJ</h1>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="project.html">Project</a>
-        <a href="contact.html">Contact</a>
-        <h1>Software Developer at Oracle</h1>
-        <h2>Welcome to my professional portfolio!</h2>
+        <nav>
+            <ul>
+                <li><label for="">Manoj</label></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <div>
-        <h2>Introduction</h2>
-        <p>Hi, I'm Manoj, Computer Science graduate with a solid understanding of programming fundamentals, data structures, and
-            algorithms. Eager to kickstart my career as a Java Developer and contribute to innovative projects that leverage
-            cutting-edge technologies. Passionate about coding and problem-solving, with a strong desire to learn and grow
-            within a collaborative team environment.
-        </p>
-        <img src="Manoj_photo.jpg" alt="Manoj" height="200px" width="200px">
-    </div>
-    <footer>
-        <h3>Contact Me</h3>
-        <p>Email: manojkulal9686@gmail.com</p>
+    
+    <section id="home">
+        <div class="intro">
+            <img src="Manoj_photo.jpg" alt="Manoj Kulal" class="profile-pic">
+            <h1>Manoj</h1>
+            <p>Software Developer | Problem Solver | Quick Learner | Java Enthusiast |<br> Team Player | Continuous Improver</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn">Contact Me</a>
+                <a href="Manoj.pdf" class="btn" target="_blank">View Resume</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Manojkulal06" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/manojkulal06" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/me__manojj?igshid=MTBiN2VucDRzcTI4eQ==" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Computer Science graduate with a solid understanding of programming fundamentals, data structures, and algorithms. Eager to kickstart my career as a Java Developer, I am driven by a passion for coding and problem-solving. I am committed to contributing to innovative projects that leverage cutting-edge technologies, striving to make a meaningful impact in the tech industry. With a strong desire to learn and grow within a collaborative team environment, I am excited about the endless possibilities in the ever-evolving field of software development.</p>
+        <h2 id="education">Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Malnad College of Engineering, Hassan</h3>
+                <p>B.E. Computer Science | CGPA: 7.19 | August 2023</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Govt PU College, Shankaranarayana</h3>
+                <p>12th Percentage: 77.33 | March 2019</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Govt High School, Amasebail</h3>
+                <p>10th Percentage: 86.24 | April 2017</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Hotel Order System</h3>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <p>Converted the Java-based application into a responsive web application. Created an interactive order form for item selection and quantity input. Implemented a dynamic order summary for real-time updates and a tip calculator for total bill calculation.</p>
+            <p><strong>Impact:</strong> Streamlined the ordering process for customers and enhanced the efficiency of order management.</p>
+            <a href="https://manojkulal06.github.io/Hotel_Order_System/">View Project</a>
+        </div>
+        <div class="project">
+            <h3>HangMan Game</h3>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript, VScode</p>
+            <p>Converted the Java-based Hangman Game into a web version. Designed dynamic user interfaces, including category selection, virtual keyboard input, and real-time game updates. Utilized CSS for responsive design.</p>
+            <p><strong>Impact:</strong> Provided an engaging and accessible game experience for users on multiple devices.</p>
+            <a href="https://manojkulal06.github.io/Hangman_game/">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Tic Tac Toe</h3>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript, VScode</p>
+            <p>Adapted the game into a responsive web application. Implemented Player vs Player and Player vs Computer modes to enhance user engagement. Designed a clean, user-friendly, and responsive interface.</p>
+            <p><strong>Impact:</strong> Increased user engagement by providing multiple game modes and a responsive design.</p>
+            <a href="https://manojkulal06.github.io/Tic_tac_toe/">View Project</a>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>Core Java: Arrays, Strings, Multithreading, Collections, OOPs</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Relational Database Management Systems (RDBMS), SQL</li>
+                <li>C and Python (Basic proficiency)</li>
+                <li>Eclipse, MySQL, Visual Studio Code</li>
+            </ul>
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Effective Communication</li>
+                <li>Problem-solving</li>
+                <li>Team Collaboration</li>
+                <li>Time Management</li>
+                <li>Adaptability</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="training">
+        <h2>Training</h2>
+        <div class="training">
+            <p>I am currently undergoing a comprehensive Java Full Stack Web Development training program at Tap Academy. This intensive course covers both front-end and back-end development, equipping me with the skills needed to build dynamic web applications and work with databases.</p>
+            <h4>Front End:</h4>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <h4>Back End:</h4>
+            <ul>
+                <li>Java</li>
+            </ul>
+            <h4>Database:</h4>
+            <ul>
+                <li>SQL</li>
+            </ul>
+            <p>This training program enables me to gain proficiency in full-stack development and prepares me to tackle real-world challenges in building dynamic and interactive web applications.</p>
+        </div>
+    </section>
+    
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Completed NPTEL certification on ’Database Management System.’</li>
+            <li>Completed NPTEL certification with ’Elite’ on ’Cloud Computing.’</li>
+            <li>Secured first place in ”Young Entrepreneurs Programme AURA 2.0 Project Expo 2023” organized by ME-RIISE FOUNDATION and Department of CSE, Malnad College of Engineering, Hassan.</li>
+            <li>Secured second place in ”Project Expo” organized by Malnad College of Engineering, Hassan.</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Name: Manoj</p>
         <p>Phone: 8088375986</p>
-        &copy; Manoj-2024
+        <p>Email: <a href="mailto:manojkulal9686@gmail.com">manojkulal9686@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/Manojkulal06">Manojkulal06</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Manoj Kulal. All Rights Reserved.</p>
     </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
